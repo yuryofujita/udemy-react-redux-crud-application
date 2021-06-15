@@ -1,6 +1,14 @@
+import React, {Component} from "react";
+// function App() {
+//   return (
+//     <div>Hello World!</div>
+//   );
+// }
 function App() {
-  return (
-    <div><h1>Hello World!</h1></div>
+  return React.createElement(
+    "div",
+    null,
+    "Hello, world!!"
   );
 }
 
