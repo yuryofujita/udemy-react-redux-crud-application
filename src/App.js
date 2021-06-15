@@ -4,12 +4,17 @@ import React, {Component} from "react";
 //     <div>Hello World!</div>
 //   );
 // }
+// function App() {
+//   return React.createElement(
+//     "div",
+//     null,
+//     "Hello, world!!"
+//   );
+// }
 function App() {
-  return React.createElement(
-    "div",
-    null,
-    "Hello, world!!"
-  );
+  const greeting = "Hi! Tom";
+  const dom = <h1 className= "foo">{ greeting }</h1>
+  return dom;
 }
 
 export default App;
